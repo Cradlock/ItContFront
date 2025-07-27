@@ -12,7 +12,9 @@ class Profile extends React.Component {
       "clients":[],
       "built_commands":[
         {title:"Reboot",cmd:"shutdown /r /f /t 0"},
-        {title:"Turn off",cmd:"shutdown /s /f /t 0"}
+        {title:"Turn off",cmd:"shutdown /s /f /t 0"},
+        {title:"Kill roblox",cmd:"taskkill /f /IM robloxplayerbeta.exe"},
+        {title:"Kill minecraft",cmd:"taskkill /f /IM javaw.exe"},
       ]
 
     }
@@ -102,7 +104,7 @@ class Profile extends React.Component {
           <div className="boxes" style={{
             display:"flex",
             flexDirection:"column",
-            overflow:"scroll"
+            overflowY:"scroll"
           }}>
             <div className="profile-selected-pc">
                 {this.state.pces.map((pc, index) => {
