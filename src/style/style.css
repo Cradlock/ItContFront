@@ -203,7 +203,7 @@ body, html {
 }
 
 /* Footer */
-.footer-component {
+/* .footer-component {
   background-color: #111;
   color: #777;
   padding: 25px 0;
@@ -215,7 +215,7 @@ body, html {
   bottom: 0;
   width: 100%;
   margin: 100px 0px 0px 0px ;
-}
+} */
 
 .footer-nav a {
   color: #00bcd4;
