@@ -104,8 +104,8 @@ class Profile extends React.Component {
           <div className="boxes" style={{
             display:"flex",
             flexDirection:"column",
-            overflowY:"scroll",
-            height:"1300px"
+            overflow:"scroll",
+           
           }}>
             <div className="profile-selected-pc">
                 {this.state.pces.map((pc, index) => {
