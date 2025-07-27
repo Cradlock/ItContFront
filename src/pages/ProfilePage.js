@@ -102,7 +102,6 @@ class Profile extends React.Component {
           <div className="boxes" style={{
             display:"flex",
             flexDirection:"column",
-            maxHeight:"500px",
             overflow:"scroll"
           }}>
             <div className="profile-selected-pc">
